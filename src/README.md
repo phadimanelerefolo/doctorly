@@ -14,7 +14,6 @@ Before you begin, ensure you have met the following requirements:
 
 To get started with the project, follow these steps to clone the repository:
 
-```bash
 git clone https://github.com/phadimanelerefolo/doctorly.git
 
 Running the API Locally
@@ -26,7 +25,7 @@ Set up your database connection:
 
 Open the appsettings.json file and configure your database connection string under "ConnectionStrings".
 json
-Copy code
+
 "ConnectionStrings": {
     "DefaultConnection": "your-connection-string-here"
 }
