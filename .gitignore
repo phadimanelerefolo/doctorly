@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/TechnicalTask.Data/bin/Debug/net5.0
+/src/TechnicalTask.Data/obj
+/src/TechnicalTask.Tests/bin
+/src/TechnicalTask.Tests/obj
+/TechnicalTask.Data/obj/Debug/net5.0
