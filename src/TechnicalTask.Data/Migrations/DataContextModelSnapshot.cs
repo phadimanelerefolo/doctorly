@@ -21,9 +21,9 @@ namespace TechnicalTask.Data.Migrations
 
             modelBuilder.Entity("TechnicalTask.Data.Entities.Attendee", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
+                        .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<Guid>("AttendeeUUId")
@@ -35,8 +35,8 @@ namespace TechnicalTask.Data.Migrations
                     b.Property<string>("EmailAddress")
                         .HasColumnType("text");
 
-                    b.Property<long?>("EventId")
-                        .HasColumnType("bigint");
+                    b.Property<int?>("EventId")
+                        .HasColumnType("integer");
 
                     b.Property<string>("Name")
                         .HasColumnType("text");
@@ -50,9 +50,9 @@ namespace TechnicalTask.Data.Migrations
 
             modelBuilder.Entity("TechnicalTask.Data.Entities.Event", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
+                        .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("Description")
