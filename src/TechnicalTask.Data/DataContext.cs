@@ -8,7 +8,6 @@ namespace TechnicalTask.Data
     public class DataContext : DbContext
     {
         private string connectionString;
-        //update-database -Project FFZ.Message.Data -StartupProject FFZ.Message.Data -Context FFZ.Message.Data.DataContext -verbose
         public DataContext()
         {
 
