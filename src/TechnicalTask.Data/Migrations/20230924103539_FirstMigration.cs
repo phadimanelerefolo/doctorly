@@ -12,7 +12,7 @@ namespace TechnicalTask.Data.Migrations
                 name: "Event",
                 columns: table => new
                 {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     EventUUId = table.Column<Guid>(type: "uuid", nullable: false),
                     Title = table.Column<string>(type: "text", nullable: true),
@@ -29,13 +29,13 @@ namespace TechnicalTask.Data.Migrations
                 name: "Attendee",
                 columns: table => new
                 {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     AttendeeUUId = table.Column<Guid>(type: "uuid", nullable: false),
                     Name = table.Column<string>(type: "text", nullable: true),
                     EmailAddress = table.Column<string>(type: "text", nullable: true),
                     Attending = table.Column<bool>(type: "boolean", nullable: false),
-                    EventId = table.Column<long>(type: "bigint", nullable: true)
+                    EventId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {

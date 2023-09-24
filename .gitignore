@@ -10,3 +10,5 @@
 /TechnicalTask.Data/obj/Debug/net5.0
 /src/TechnicalTask.Domain/bin/Debug/net5.0
 /src/TechnicalTask.Domain/obj
+/src/TechnicalTask.API/bin/Debug/net5.0
+/src/TechnicalTask.API/obj
