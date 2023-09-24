@@ -8,3 +8,5 @@
 /src/TechnicalTask.Tests/bin
 /src/TechnicalTask.Tests/obj
 /TechnicalTask.Data/obj/Debug/net5.0
+/src/TechnicalTask.Domain/bin/Debug/net5.0
+/src/TechnicalTask.Domain/obj
